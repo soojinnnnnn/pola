@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*Animation for the div container end.*/
+nav {
+  position: absolute;
+  right: 0px;
+}
+
+#logo {
+  font-family: League Spartan, Helvetica, sans-serif;
+  font-size: 30px;
+  float: left;
+  position: absolute;
+  padding: 25px;
+}
+#logo a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li {
+  float: left;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  padding: 15px;
+  list-style-type: none;
+}
+
+nav ul {
+  float: right;
+  display: block;
+  padding: 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+body {
+  background-image: url('nature.jpeg');
+  background-size: cover;
+  background-position: center center;
+}
+.heropage {
+  background-size: cover;
+  min-height: 1000px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.herotext h1 {
+  margin-bottom: 15px;
+  font-family: League Spartan;
+  color: white;
+  font-size: 55px;
+}
+
+.herotext button:focus {
+  outline: 0;
+}
+
+.herotext button {
+  font-size: 20px;
+  width: 190px;
+  font-family: 'Roboto', sans-serif;
+  background-color: transparent;
+  border-radius: 500px;
+  border: 2px solid white;
+  color: white;
+  height: 57px;
+  cursor: pointer;
+  transition: all 0.2s linear;
+}

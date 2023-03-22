@@ -1,0 +1,55 @@
+body {
+  background-image: url("https://media.istockphoto.com/id/1095016798/photo/abstract-blurred-greenery-leaves-of-tree-forest-at-nation-public-park-outdoor-in-autumn.jpg?s=612x612&w=0&k=20&c=3VsY9jHmCNW-SBwZqgJSnRecbKWsF0xApbw61ZJ7qB8=");
+  background-size: cover;
+}
+h1 {
+  color: #333;
+  font-family: 'Roboto';
+  text-align: center;
+}
+
+p {
+  color: #666;
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.box {
+  width: calc(25% - 10px);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.box img {
+  max-width: 100%;
+  height: auto;
+}
+
+.box p {
+  margin-top: 10px;
+}
+.back-button {
+  display: inline-block;
+  margin: 10px;
+}
+
+.back-button button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.back-button button:hover {
+  background-color: #444;
+}
